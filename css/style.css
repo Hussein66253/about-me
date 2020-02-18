@@ -1,3 +1,6 @@
+* {
+    border: 1px solid black;
+}
 h1 {
     font-family: sans-serif; 
     font-weight: bolder;
@@ -22,7 +25,7 @@ p{
     font-family: 'Helvetica Neue', sans-serif;
     font-weight: initial;
     color: #685206;
-    font-size: 14px; 
+    font-size: 20px; 
     line-height: 24px; 
     margin: 24px; 
     text-align: justify; 
@@ -32,9 +35,36 @@ sup {
     vertical-align: super;
     font-size: smaller;
   }
+  h4{
+    font-family: Verdana, Sans-serif; 
+    font-weight: bolder;
+    padding: 2px;
+    margin: 2px;
+    color: darkslategray;
+  }
+  
+  .ollist {
+      list-style: upper-roman;
+      font-family: Verdana, Sans-serif; 
+     padding-left: 29px;
+     color: #685206;
+     font-size: 19px; 
+     line-height: 29px; 
+  }
+#lstop {
+    margin-bottom: 5px;
+}
+ul {
 
-
-
+}
+.ullist {
+    list-style: square inside;
+    font-family: Verdana, Sans-serif; 
+   padding-left: 29px;
+   color: #685206;
+   font-size: 19px; 
+   line-height: 29px; 
+}
 footer {
     background-color: slateblue;
     font-weight: bold;
