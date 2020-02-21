@@ -124,7 +124,7 @@ function que7() {
     // Question no.7 (multiple possible correct answers)
     var favMucs = ['Adele', 'Alan Walker', 'Sia', 'Fouzia', 'Imagine Dragons', 'Anne Mari'];
     var test = 0
-    for (var x = 0; x < 7; x++) {
+    for (var x = 0; x < 6; x++) {
         var val = prompt  ("How is my favorite musician?", "An non-arabic onse, the name should starts with capital letter!!");
         for (var i = 0; i < favMucs.length; i++) {
             if (val === favMucs[i]) {
